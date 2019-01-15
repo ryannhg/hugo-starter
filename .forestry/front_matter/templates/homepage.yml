@@ -14,7 +14,7 @@ fields:
       required: true
     default: Welcome to Hugo
   - type: text
-    name: subtitl
+    name: subtitle
     label: Subtitle
     description: Appears below the title.
     default: It's so fast, man!
