@@ -1,6 +1,6 @@
 +++
 [hero]
-subtitl = "It's so fast, man!"
+subtitle = "It's so fast, man!"
 title = "Welcome to Hugo"
 
 +++
