@@ -9,6 +9,13 @@ sections:
   label: Pages
   create: all
   match: "*"
+- type: heading
+  label: Insights
+- type: directory
+  path: content/news
+  label: News
+  create: documents
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
