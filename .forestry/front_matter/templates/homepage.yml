@@ -18,3 +18,5 @@ fields:
     label: Subtitle
     description: Appears below the title.
     default: It's so fast, man!
+pages:
+- content/pages/home.md
