@@ -6,7 +6,9 @@
   <title>Hugo</title>
 </head>
 <body>
-  <h1>Hello</h1>
-  {{.Content}}
+  <div>
+    <h1>{{.Params.hero.title}}</h1>
+    <h2>{{.Params.hero.subtitle}}</h2>
+  </div>
 </body>
 </html>
