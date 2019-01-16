@@ -1,7 +1,6 @@
 +++
 background_image = ""
 date = "2019-01-16T05:16:18+00:00"
-draft = true
 subtitle = "That's a great question."
 title = "Why Hugo?"
 [[sections]]
