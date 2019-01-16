@@ -1,0 +1,16 @@
+---
+label: General Content Page
+hide_body: true
+is_partial: false
+fields:
+- type: include
+  name: hero
+  label: Hero
+  template: hero
+- type: blocks
+  name: sections
+  label: Sections
+  template_types:
+  - pull-quote
+  - accordion-section
+  - read-more-section
