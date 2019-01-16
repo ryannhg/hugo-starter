@@ -11,7 +11,7 @@ sections:
   label: Homepage
 - type: directory
   path: content/pages
-  label: General Content Pages
+  label: Pages
   create: all
   match: "**/*"
   templates:
