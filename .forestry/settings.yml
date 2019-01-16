@@ -4,6 +4,10 @@ auto_deploy: true
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: content/insights.md
+  label: Insights Landing
+  match: "**/*"
 - type: heading
   label: Pages
 - type: document
@@ -29,20 +33,20 @@ sections:
 - type: heading
   label: Insights
 - type: directory
-  path: content/news
+  path: content/insights/news
   label: News
   create: documents
   match: "*"
 - type: directory
-  path: content/events
+  path: content/insights/events
   label: Events
   create: documents
   match: "*"
 - type: directory
-  path: content/publications/*
+  path: content/insights/publications
   label: Publications
   create: documents
-  match: "**/*"
+  match: "*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
