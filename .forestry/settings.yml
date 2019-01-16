@@ -17,6 +17,17 @@ sections:
   templates:
   - general-content-page
 - type: heading
+  label: People
+- type: document
+  path: content/people/_index.md
+  label: People Landing
+  match: "**/*"
+- type: directory
+  path: content/people
+  label: People
+  create: documents
+  match: "*"
+- type: heading
   label: Insights
 - type: directory
   path: content/news
