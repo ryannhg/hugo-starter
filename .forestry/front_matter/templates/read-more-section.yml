@@ -1,0 +1,25 @@
+---
+label: Read More Section
+hide_body: false
+is_partial: true
+display_field: title
+fields:
+- type: text
+  name: title
+  label: Title
+- type: textarea
+  name: content
+  label: Content
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: textarea
+  name: additional_content
+  label: Additional Content
+  description: Optional section appears when "Read more" is clicked
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
