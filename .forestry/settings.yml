@@ -9,6 +9,13 @@ sections:
 - type: document
   path: content/_index.md
   label: Homepage
+- type: directory
+  path: content/pages
+  label: General Content Pages
+  create: all
+  match: "**/*"
+  templates:
+  - general-content-page
 - type: heading
   label: Insights
 - type: directory
