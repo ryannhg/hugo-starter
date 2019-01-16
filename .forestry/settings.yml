@@ -21,7 +21,6 @@ sections:
 - type: document
   path: content/people/_index.md
   label: People Landing
-  match: "**/*"
 - type: directory
   path: content/people
   label: People
