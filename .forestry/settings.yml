@@ -7,7 +7,6 @@ sections:
 - type: document
   path: content/insights.md
   label: Insights Landing
-  match: "**/*"
 - type: heading
   label: Pages
 - type: document
