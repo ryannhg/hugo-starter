@@ -14,3 +14,5 @@ fields:
   - pull-quote
   - accordion-section
   - read-more-section
+pages:
+- content/pages/About/why-hugo.md
