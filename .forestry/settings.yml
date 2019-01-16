@@ -19,7 +19,7 @@ sections:
 - type: heading
   label: People
 - type: document
-  path: content/people/_index.md
+  path: content/people.md
   label: People Landing
 - type: directory
   path: content/people
