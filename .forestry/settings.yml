@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Pages
 - type: document
-  path: content/pages/home.md
+  path: content/_index.md
   label: Homepage
 - type: heading
   label: Insights
