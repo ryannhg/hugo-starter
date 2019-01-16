@@ -19,4 +19,4 @@ fields:
     description: Appears below the title.
     default: It's so fast, man!
 pages:
-- content/pages/home.md
+- content/_index.md
