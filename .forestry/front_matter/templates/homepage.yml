@@ -21,3 +21,5 @@ fields:
   - type: file
     name: background_image
     label: Background Image
+pages:
+- content/_index.md
