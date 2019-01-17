@@ -1,7 +1,7 @@
 +++
 author = "people/ryan-haskell-glatz.md"
 date = "2019-01-17T03:36:14+00:00"
-draft = true
+title = "Oh wow."
 
 +++
 ### Hey there.
