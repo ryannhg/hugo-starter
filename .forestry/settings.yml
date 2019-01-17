@@ -4,9 +4,6 @@ auto_deploy: true
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: content/insights.md
-  label: Insights Landing
 - type: heading
   label: Pages
 - type: document
@@ -29,8 +26,13 @@ sections:
   label: People
   create: documents
   match: "*"
+  templates:
+  - person
 - type: heading
   label: Insights
+- type: document
+  path: content/insights.md
+  label: Insights Landing
 - type: directory
   path: content/insights/news
   label: News
@@ -46,6 +48,8 @@ sections:
   label: Publications
   create: documents
   match: "*"
+  templates:
+  - publication
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
