@@ -1,0 +1,16 @@
+---
+label: Person
+hide_body: true
+is_partial: false
+fields:
+- type: include
+  name: name
+  label: Name
+  template: name
+- type: text
+  name: email
+  label: Email
+- type: include
+  name: bio
+  label: Bio
+  template: read-more-section
