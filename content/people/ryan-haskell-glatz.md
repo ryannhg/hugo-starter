@@ -6,14 +6,11 @@ email = "ryan.nhg@gmail.com"
 first_name = "Ryan"
 last_name = "Haskell-Glatz"
 middle_name = ""
+name = "Ryan Haskell-Glatz"
 title = ""
 [bio]
 additional_content = ""
 content = "<p>Ryan loves making sites in elm!</p>"
 title = ""
-[name]
-first_name = "Ryan"
-last_name = "Haskell-Glatz"
-middle_name = ""
 
 +++
