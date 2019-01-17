@@ -7,7 +7,9 @@ fields:
   name: author
   config:
     source:
-      type: documents
+      type: pages
       section: people-c3c8ad62-2cb9-4e7c-8b1e-a96b60c45585
+      file: content/people/ryan-haskell-glatz.md
     required: true
   label: Author
+  default: people/ryan-haskell-glatz.md
