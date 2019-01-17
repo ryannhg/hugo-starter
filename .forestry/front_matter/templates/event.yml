@@ -26,3 +26,5 @@ fields:
     schema:
       format: html-blocks
   default: "<p></p>"
+pages:
+- content/insights/events/ryan-goes-to-elm-conf.md
