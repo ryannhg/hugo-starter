@@ -1,0 +1,28 @@
+---
+label: Event
+hide_body: true
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: datetime
+  name: start_date
+  label: Start Date
+  config:
+    required: true
+- type: datetime
+  name: end_date
+  label: End Date
+  config:
+    required: true
+- type: textarea
+  name: description
+  label: Description
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  default: "<p></p>"
