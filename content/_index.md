@@ -1,7 +1,7 @@
 +++
 [hero]
 background_image = ""
-subtitle = "Cool as balls tho"
-title = "Welcome to Hugo?"
+subtitle = "This is really fast!"
+title = "Hugo Starter"
 
 +++
