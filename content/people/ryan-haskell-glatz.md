@@ -7,7 +7,7 @@ first_name = "Ryan"
 last_name = "Haskell-Glatz"
 middle_name = ""
 name = "Ryan Haskell-Glatz"
-title = ""
+title = "Ryan Haskell-Glatz"
 [bio]
 additional_content = ""
 content = "<p>Ryan loves making sites in elm!</p>"
