@@ -3,14 +3,11 @@ label: Person
 hide_body: true
 is_partial: false
 fields:
-- type: field_group
+- type: text
   name: name
   label: Name
-  fields:
-  - type: include
-    name: name
-    label: Name
-    template: name
+  config:
+    required: true
 - type: text
   name: email
   label: Email
