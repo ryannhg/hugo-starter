@@ -2,6 +2,8 @@
 author = "people/ryan-haskell-glatz.md"
 date = "2019-01-17T03:36:14+00:00"
 title = "Oh wow."
+[[authors]]
+author = "people/ryan-haskell-glatz.md"
 
 +++
 ### Hey there.
