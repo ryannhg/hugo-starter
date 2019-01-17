@@ -13,3 +13,5 @@ fields:
     required: false
   label: Author
   default: ''
+pages:
+- content/insights/publications/oh-wow.md
