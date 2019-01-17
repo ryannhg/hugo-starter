@@ -3,16 +3,24 @@ label: Person
 hide_body: true
 is_partial: false
 fields:
-- type: include
+- type: field_group
   name: name
   label: Name
-  template: name
+  fields:
+  - type: include
+    name: name
+    label: Name
+    template: name
 - type: text
   name: email
   label: Email
-- type: include
+- type: field_group
   name: bio
   label: Bio
-  template: read-more-section
+  fields:
+  - type: include
+    name: bio
+    label: Bio
+    template: read-more-section
 pages:
 - content/people/ryan-haskell-glatz.md
