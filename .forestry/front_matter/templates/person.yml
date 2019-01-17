@@ -14,3 +14,5 @@ fields:
   name: bio
   label: Bio
   template: read-more-section
+pages:
+- content/people/ryan-haskell-glatz.md
