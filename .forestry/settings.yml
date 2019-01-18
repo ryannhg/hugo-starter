@@ -4,6 +4,14 @@ auto_deploy: true
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: content/components
+  label: Components
+  create: documents
+  match: "*"
+  exclude: "*.html"
+  templates:
+  - component
 - type: heading
   label: Pages
 - type: document
