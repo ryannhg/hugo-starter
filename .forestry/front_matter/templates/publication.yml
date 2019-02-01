@@ -24,6 +24,5 @@ fields:
   config:
     labelField: author
 pages:
-- content/insights/publications/elm-is-lame-copy.md
 - content/insights/publications/oh-wow.md
 - content/insights/publications/elm-is-lame.md
